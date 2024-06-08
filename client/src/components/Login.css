@@ -1,0 +1,80 @@
+/* Login.css */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .formsignin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formsigninheading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .formcontrol {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px !important;
+    font-size: 16px;
+  }
+  
+  .formcontrol:focus {
+    z-index: 2;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: -1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
